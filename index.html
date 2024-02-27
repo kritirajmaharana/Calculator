@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" class="output" >
+        <div class="buttons">
+            <div class="row1 row">
+                <input type="button" class="btn" value="AC" onclick="ac()" >
+                <input type="button" class="btn" value="Del" onclick='del()'>
+                <input type="button" class="btn" value="%" onclick="getData('%')">
+                <input type="button" class="btn" value="/" onclick="getData('/')">
+            </div>
+            <div class="row2 row">
+                <input type="button" class="btn" value="7" onclick="getData('7')">
+                <input type="button" class="btn" value="8" onclick="getData('8')">
+                <input type="button" class="btn" value="9" onclick="getData('9')">
+                <input type="button" class="btn" value="*" onclick="getData('*')">
+            </div>
+            <div class="row3 row">
+                <input type="button" class="btn" value="4" onclick="getData('4')" >
+                <input type="button" class="btn" value="5" onclick="getData('5')" >
+                <input type="button" class="btn" value="6" onclick="getData('6')" >
+                <input type="button" class="btn" value="-" onclick="getData('-')" >
+            </div>
+            <div class="row4 row">
+                <input type="button" class="btn" value="1" onclick="getData('1')">
+                <input type="button" class="btn" value="2" onclick="getData('2')">
+                <input type="button" class="btn" value="3" onclick="getData('3')">
+                <input type="button" class="btn" value="+" onclick="getData('+')">
+            </div>
+            <div class="row5 row">
+                <input type="button" class="btn1" value="0" onclick="getData('0')" >
+                <input type="button" class="btn" value="." onclick="getData('.')" >
+                <input type="button" class="btn" value="=" onclick="equalto()" >
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

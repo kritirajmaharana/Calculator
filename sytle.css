@@ -1,0 +1,76 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #0b3f4c;
+    background-image: linear-gradient(19deg, #0b3f4c 0%, #320a45 100%);
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.output{
+    width: 100%;
+    height: 7.2rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 4rem;
+}
+.buttons{
+    width: 100%;
+    height: calc(100% - 7.2rem);
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    width: 164px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius:40px;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
