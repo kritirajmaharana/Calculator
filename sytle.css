@@ -24,6 +24,7 @@ body,html{
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    border-radius: 12px;
 }
 .output{
     width: 100%;
@@ -31,6 +32,9 @@ body,html{
     background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
     text-align: right;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 8px gray inset;
     font-size: 4rem;
 }
 .buttons{
@@ -52,7 +56,11 @@ body,html{
 .btn{
     width: 80px;
     height: 80px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient(to right, #81017b 0%, #0fb1c0  51%, #360033  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: whitesmoke;
     border-radius: 50%;
     font-size: 2rem;
     font-weight: 600;
@@ -60,17 +68,38 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 4px 8px gray;
+
 }
 .btn1{
     width: 164px;
     height: 80px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient(to right, #81017b 0%, #0fb1c0  51%, #360033  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
     border-radius:40px;
     font-size: 2rem;
+    color: white;
     font-weight: 600;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 4px 8px gray;
+
 }
 
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #7a0074 0%, #0ea2af  51%, #70016b  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+  }
+
+  .btn1:hover ,.btn:hover  {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
